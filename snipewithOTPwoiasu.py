@@ -212,6 +212,7 @@ while True:
 		if pakelog == "y":
 			response = webhook.execute()
 		browser.refresh()
+		time.sleep(2)
 		continue
 	except TimeoutException:
 		newtime()
@@ -220,6 +221,7 @@ while True:
 		if pakelog == "y":
 			response = webhook.execute()
 		browser.refresh()
+		time.sleep(2)
 		continue
 print(belisekarang.is_enabled())
 btnclass = belisekarang.get_attribute("class")
