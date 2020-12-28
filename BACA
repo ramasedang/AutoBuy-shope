@@ -1,0 +1,6 @@
+pip install request
+pip install discord_webhook
+pip install selenium
+
+
+copas ke cmd satu satu
