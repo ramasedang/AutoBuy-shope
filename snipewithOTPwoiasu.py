@@ -224,6 +224,7 @@ while True:
 		time.sleep(2)
 		continue
 print(belisekarang.is_enabled())
+time.sleep(3)
 btnclass = belisekarang.get_attribute("class")
 print(btnclass)
 
