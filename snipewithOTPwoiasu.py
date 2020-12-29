@@ -379,6 +379,7 @@ else:
 	print("Sniping failed!")
 
 # BUAT ORDER
+time.sleep(1)
 try:
     element = WebDriverWait(browser, 10).until(
         EC.presence_of_element_located((By.CLASS_NAME, "stardust-button"))
