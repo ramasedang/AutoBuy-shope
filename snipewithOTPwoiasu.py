@@ -122,6 +122,12 @@ print("Awaiting for the time to manual prevent bot detection...");
 # LOGGING IN TO THE ACCOUNT
 
 option = webdriver.ChromeOptions()
+option.add_argument('headless')
+option.add_argument("--start-maximized")
+option.add_argument("--disable-gpu")
+option.add_argument("--no-sandbox")
+option.add_argument("--disable-dev-shm-usage")
+option.add_argument("--incognito")
 prefs = {"profile.managed_default_content_settings.images": 2}
 option.add_experimental_option("prefs", prefs)
 option.add_experimental_option("excludeSwitches", ['enable-automation']);
@@ -164,6 +170,7 @@ if pakelog == "y":
 	response = webhook.execute()
 
 browser.get(producturl)
+WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#main > div > div._1Bj1VS > div.page-product.page-product--mall > div.container > div.product-briefing.flex.card._2cRTS4 > div.flex.flex-auto.k-mj2F > div > div:nth-child(5) > div > div > button.btn.btn-solid-primary.btn--l.YtgjXY")))
 
 newtime()
 print("[",timestampStr,"]""[INFO :] CHECKING IF PRODUCT VARIANT EXISTS...")
