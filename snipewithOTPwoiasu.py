@@ -54,7 +54,7 @@ def newtime():
 
 webhook = 0
 response = 0
-ctypes.windll.kernel32.SetConsoleTitleW("Snipee [Coded by Fallen#0021!]")
+ctypes.windll.kernel32.SetConsoleTitleW("Snipee [Coded by Four]")
 os.system('color 0e')
 
 
@@ -67,17 +67,10 @@ banner = """
 ███████╗███╗   ██╗██╗██████╗ ███████╗███████╗
 ██╔════╝████╗  ██║██║██╔══██╗██╔════╝██╔════╝	=-- Programmed --------=
 ███████╗██╔██╗ ██║██║██████╔╝█████╗  █████╗  	| Written & Coded by   |
-╚════██║██║╚██╗██║██║██╔═══╝ ██╔══╝  ██╔══╝  	| Fallen / Pratamz.    |
+╚════██║██║╚██╗██║██║██╔═══╝ ██╔══╝  ██╔══╝  	| Four    |
 ███████║██║ ╚████║██║██║     ███████╗███████╗	\===________________===/
 ╚══════╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝╚══════╝
 """
-print(banner)
-print("Flashsale Sniper [Platform : Shopee Edition] Version 1.2")
-print("OPEN SOURCE VERSION, DO NOT RESELL OR ILLEGALLY USE.")
-print("Proudly coded with <3 by Fallen (me). Telegram : @FallenV4")
-print("");
-print("Metode tersebut private, untuk mendapatkan Software Key. Harap hubungi");
-print("@FallenV4 di Telegram atau Fallen#0021 via Discord. Thank you!")
 producturl = input("Masukkan URL Product: ")
 usernamee = input("Masukkan Username Shopee: ")
 passwordd = getpass.getpass(prompt="masukan password: ")
@@ -85,7 +78,6 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print(banner)
 print("Flashsale Sniper [Platform : Shopee Edition] Version 1.2")
 print("OPEN SOURCE VERSION, DO NOT RESELL OR ILLEGALLY USE.")
-print("Proudly coded with <3 by Fallen (me). Telegram : @FallenV4")
 print("");
 print("Mohon masukkan metode pembayaran yang ingin dipakai")
 print("[1] : ShopeePay (Pastikan Saldo Cukup)")
