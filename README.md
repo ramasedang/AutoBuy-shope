@@ -1,16 +1,26 @@
-# 🚫 DEPRECATED – AutoBuy Shopee Flash Sale
+````md
+# 🚫 DEPRECATED — Shopee Flash Sale AutoBuy Script
 
-This project is **deprecated** and no longer works due to major updates to Shopee’s API, authentication process, and anti-bot protection. The script is kept only for learning and archival purposes.
+This repository is **deprecated** and the script no longer works due to Shopee’s updated API, authentication system, and anti-bot protections.  
+It is kept only for reference and learning purposes.
 
 ## 📌 About
-`flash_sale.py` was a simple automation script intended to attempt quick purchases during Shopee Flash Sale events.
+`flash_sale.py` was created to automate checkout attempts during Shopee Flash Sale events.
 
-## ⚠️ Note
-- The script no longer functions.
-- Old endpoints and methods used in this project are now blocked or changed.
-- Use of automation on e-commerce platforms may violate their Terms of Service.
+## ⚠️ Important
+- The script does **not** work anymore.
+- Endpoints and methods used are outdated or blocked.
+- Using automation on shopping platforms may violate their Terms of Service.
 
-## 📘 Usage (Historical Reference Only)
-1. Install required Python packages  
+## 📘 How It Used to Work (For Reference Only)
+1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+2. Configure values inside `flash_sale.py`.
+3. Run:
+
+   ```bash
+   python flash_sale.py
+   ```
+````
