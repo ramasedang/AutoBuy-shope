@@ -1,4 +1,3 @@
-````md
 # 🚫 DEPRECATED — Shopee Flash Sale AutoBuy Script
 
 This repository is **deprecated** and the script no longer works due to Shopee’s updated API, authentication system, and anti-bot protections.  
@@ -23,4 +22,3 @@ It is kept only for reference and learning purposes.
    ```bash
    python flash_sale.py
    ```
-````
